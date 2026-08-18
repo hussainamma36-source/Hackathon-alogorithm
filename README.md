@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReelMind AI — "Turn your scrolling into smarter learning."
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
@@ -93,3 +94,6 @@ Every recommendation response contains:
 - `WHY THIS RECOMMENDATION`: Human-readable connection explanation
 - `DIFFICULTY`: Beginner / Intermediate / Advanced
 - `CONFIDENCE`: High / Medium / Low
+=======
+# Hackathon-alogorithm
+>>>>>>> f816d92d72a544544189c208f0ba62d1f60144a9
