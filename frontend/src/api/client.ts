@@ -2,7 +2,10 @@ import axios from 'axios';
 
 const getBaseUrl = () => {
   if (import.meta.env.VITE_API_BASE_URL) {
-    return import.meta.env.VITE_API_BASE_URL;
+    return import.meta.env.VITE_API_BASE_URL.replace(/\/$/, '');
+  }
+  if (import.meta.env.PROD) {
+    return 'https://hackathon-algorithm-3.onrender.com';
   }
   const hostname = typeof window !== 'undefined' ? window.location.hostname : '127.0.0.1';
   return `http://${hostname}:8000`;
